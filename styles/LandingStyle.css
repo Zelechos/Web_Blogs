@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+/* ESTILOS GENERALES */
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1192px;    
+    height: 100%;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+/* HEADER */
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 75px;
+    background-color:#ffc017;
+    border-bottom: 1px solid black;
+    position: fixed;
+    margin-top: -75px;
+
+}
+
+header .container{
+}
+
+header .container img{
+    width : auto;
+    height: 35px;
+}
+
+header .container nav{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+header .container nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+header .container nav ul li{
+    margin-right: 25px;
+}
+
+header .container nav ul li:last-child{
+    background-color: black;
+    color: #ffff;
+    padding: 7px 16px 9px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 0;
+}
+
+/* SECTION HERO */
+#hero{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width:100%;
+    height:400px;
+    background-color: #ffc017;
+    border-bottom: 1px solid black;
+    margin-top: 75px;
+}
+
+
+#hero .container{
+    align-items: flex-start;
+}
+
+#hero .container .HeroColumn{
+}
+
+#hero .container .HeroColumn.HeroColumn--left{
+    width: 50%;
+    padding-top: 33px;
+    padding-bottom: 51px;
+}
+
+#hero .container .HeroColumn.HeroColumn--left h2{
+    font-size: 70px;
+    font-weight: 400;
+    margin-bottom: 53px;
+}
+
+#hero .container .HeroColumn.HeroColumn--left h3{
+    font-size: 18px;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+
+#hero .container .HeroColumn.HeroColumn--left h3 a{
+    text-decoration: underline;
+    color: inherit;
+}
+
+#hero .container .HeroColumn.HeroColumn--left > a{
+    display: inline-block;
+    padding: 7px 20px 9px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    color: black;
+    line-height: 24px;
+}
+
+#hero .container .HeroColumn.HeroColumn--right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+#hero .container .HeroColumn.HeroColumn--right img{
+    margin-right: 35px;
+}
+

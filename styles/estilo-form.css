@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: garaldus;
+	background-color: #415153;
+	
+}
+
+.formulario{
+
+	width: 400px;
+	height: 510px;
+	background: #3B3B3B;
+	margin: auto;
+	margin-top: 100px;
+	box-shadow: 7px 13px 37px #000;
+	padding: 20px 30px;
+	border-top: 4px solid #16D6F4;
+	color: white;
+}
+
+.formulario h5{
+	margin: 0;
+	text-align: center;
+	height: 40px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid;
+	font-size: 20px;
+}
+
+.controles{
+	width: 100%;
+	border:1px solid #16D6F4;
+	margin-bottom: 15px;
+	padding: 11px 10px;
+	background: #252323;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+}
+
+.boton{
+	width: 100%;
+	height: 40px;
+	background: #16D6F4;
+	border: none;
+	color: white;
+	margin-bottom: 16px;
+}
+
+.formulario p{
+	height: 40px;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.formulario a{
+	color: white;
+	text-decoration: none;
+}
+
+.formulario a:hover{
+	text-decoration: underline;
+}
+
+.boton2{
+	width: 100%;
+	height: 40px;
+	background: #0C7585;
+	color: white;
+	margin:0px;
+	border: none;
+}
+
+.gmail{
+	width: 150px;
+	height: 100px;
+	margin-left: 8px;
+	margin-right: 20px;
+}
+
+.face{
+	width: 150px;
+	height: 100px;
+}
+
+.parrafo{
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+
